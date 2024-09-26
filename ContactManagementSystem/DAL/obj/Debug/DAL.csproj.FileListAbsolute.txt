@@ -1,0 +1,15 @@
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\DAL.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\DAL.pdb
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.pdb
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\DAL.dll.config
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.xml
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.Migrations.createDB.resources
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.Migrations.tableCreate.resources

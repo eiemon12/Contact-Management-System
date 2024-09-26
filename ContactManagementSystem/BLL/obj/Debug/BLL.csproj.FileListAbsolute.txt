@@ -1,0 +1,14 @@
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\BLL.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\BLL.pdb
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\DAL.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\DAL.pdb
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\obj\Debug\BLL.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\obj\Debug\BLL.pdb
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\DAL.dll.config
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\EntityFramework.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\EntityFramework.xml
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\AutoMapper.dll
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\BLL\bin\Debug\AutoMapper.xml
