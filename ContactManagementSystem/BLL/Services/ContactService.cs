@@ -5,6 +5,7 @@ using DAL.EF.TableModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,6 +36,7 @@ namespace BLL.Services
             var data = DataAccess.ContactData().Get(id);
             return GetMapper().Map<ContactDTO>(data);
         }
+
         public static bool Update(ContactDTO obj)
         {
             var data = GetMapper().Map<Contact>(obj);
@@ -43,6 +45,20 @@ namespace BLL.Services
         public static bool Delete(int id)
         {
             return DataAccess.ContactData().Delete(id);
+        }
+
+        public static ContactDTO GetByName(string name)
+        {
+            
+            var contactRepo = (DataAccess)DataAccess.ContactData();
+            var data = contactRepo.Equals(name) ? contactRepo : null;
+
+            if (data == null)
+            {
+                throw new Exception("Contact not found");
+            }
+
+            return GetMapper().Map<ContactDTO>(data);
         }
     }
 }

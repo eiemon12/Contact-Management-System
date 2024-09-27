@@ -10,21 +10,33 @@ namespace DAL.EF.TableModels
 {
     public class Contact
     {
-        public int Id { get; set; }
+        [Key]
+        public int CId { get; set; }
+
         [Required]
         [Column(TypeName = "VARCHAR")]
-        [StringLength(10)]
         public string Name { get; set; }
-        public int Phone {  get; set; }
+
+        [Required]
+        public int Phone { get; set; }
+
         [Required]
         [Column(TypeName = "VARCHAR")]
         [EmailAddress]
         public string Email { get; set; }
+
         [Required]
         public string Address { get; set; }
+
         [Required]
         public string Categories { get; set; }
-        public string Notes { get; set; }
 
+        public virtual User User { get; set; }
+
+        [ForeignKey("User")]
+        public int UId { get; set; }
+
+        public virtual Note Note { get; set; }
+        public int? NoteId { get; set; }
     }
 }

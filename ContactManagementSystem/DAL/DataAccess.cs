@@ -23,5 +23,9 @@ namespace DAL
         {
             return new UserRepo();
         }
+        public static ISearch SearchData() 
+        {
+            return new ContactRepo();
+        }
     }
 }

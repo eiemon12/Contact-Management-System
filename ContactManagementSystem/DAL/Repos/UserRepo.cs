@@ -36,7 +36,7 @@ namespace DAL.Repos
 
         public User Upadte(User obj)
         {
-            var exobj = Get(obj.Id);
+            var exobj = Get(obj.UId);
             db.Entry(exobj).CurrentValues.SetValues(obj);
             db.SaveChanges();
             return obj;

@@ -2,13 +2,14 @@
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class ContactRepo : Repo, IRepo<Contact, int, bool>
+    internal class ContactRepo : Repo, IRepo<Contact, int, bool> ,ISearch
     {
         public bool Create(Contact obj)
         {
@@ -35,9 +36,16 @@ namespace DAL.Repos
 
         public bool Upadte(Contact obj)
         {
-            var exobj = Get(obj.Id);
+            var exobj = Get(obj.CId);
             db.Entry(exobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0; 
+        }
+
+
+        
+        public Contact GetByName(string name)
+        {
+            return db.Contacts.FirstOrDefault(c => c.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
         }
     }
 }
