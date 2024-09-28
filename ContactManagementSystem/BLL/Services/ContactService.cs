@@ -47,18 +47,17 @@ namespace BLL.Services
             return DataAccess.ContactData().Delete(id);
         }
 
-        public static ContactDTO GetByName(string name)
-        {
-            
-            var contactRepo = (DataAccess)DataAccess.ContactData();
-            var data = contactRepo.Equals(name) ? contactRepo : null;
 
-            if (data == null)
+        public static List<ContactDTO> SearchByName(string name)
+        {
+            var contacts = DataAccess.SearchData().Search(name); 
+
+            if (contacts == null || !contacts.Any())
             {
-                throw new Exception("Contact not found");
+                return new List<ContactDTO>(); 
             }
 
-            return GetMapper().Map<ContactDTO>(data);
+            return GetMapper().Map<List<ContactDTO>>(contacts);
         }
     }
 }

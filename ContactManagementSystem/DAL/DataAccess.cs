@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DataAccess
     {
-        public static IRepo<User, int, User> UserData()
+        public static IRepo<User, string, User> UserData()
         {
             return new UserRepo();
         }
@@ -23,9 +23,13 @@ namespace DAL
         {
             return new UserRepo();
         }
-        public static ISearch SearchData() 
+        public static ISearchRepo SearchData()
         {
             return new ContactRepo();
+        }
+        public static IRepo<Token, string, Token> TokenData()
+        {
+            return new TokenRepo();
         }
     }
 }

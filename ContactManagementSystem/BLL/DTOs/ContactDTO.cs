@@ -8,12 +8,14 @@ namespace BLL.DTOs
 {
     public class ContactDTO
     {
-        public int CId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public int Phone { get; set; }
+        public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-        public string Categories { get; set; }
-        public int UId { get; set; }
+        public string Birthday { get; set; }
+        public string Category { get; set; } 
+        public string Notes { get; set; }
+        public int UserId { get; set; }
     }
 }

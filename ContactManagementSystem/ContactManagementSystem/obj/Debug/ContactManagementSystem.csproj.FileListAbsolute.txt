@@ -76,3 +76,4 @@ D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManage
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\ContactManagementSystem\bin\AutoMapper.xml
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\ContactManagementSystem\bin\DAL.pdb
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\ContactManagementSystem\bin\DAL.dll.config
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\ContactManagementSystem\bin\BLL.dll.config

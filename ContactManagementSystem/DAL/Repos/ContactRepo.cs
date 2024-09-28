@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class ContactRepo : Repo, IRepo<Contact, int, bool> ,ISearch
+    internal class ContactRepo : Repo, IRepo<Contact, int, bool> ,ISearchRepo
     {
         public bool Create(Contact obj)
         {
@@ -36,16 +36,15 @@ namespace DAL.Repos
 
         public bool Upadte(Contact obj)
         {
-            var exobj = Get(obj.CId);
+            var exobj = Get(obj.Id);
             db.Entry(exobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0; 
         }
-
-
-        
-        public Contact GetByName(string name)
+        public List<Contact> Search(string name)
         {
-            return db.Contacts.FirstOrDefault(c => c.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            return db.Contacts
+                .Where(c => c.Name.ToLower().Contains(name.ToLower())) 
+                .ToList();
         }
     }
 }

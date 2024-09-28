@@ -10,6 +10,5 @@ D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManage
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.xml
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.Up2Date
-D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.Migrations.addTables.resources
+D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.Migrations.createTables.resources
 D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
-D:\AIUB\11th semester\.NET\final\project\Contact-Management-System\ContactManagementSystem\DAL\obj\Debug\DAL.Migrations.modifyTable.resources

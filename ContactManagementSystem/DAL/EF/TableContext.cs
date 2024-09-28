@@ -12,6 +12,7 @@ namespace DAL.EF
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Contact> Contacts { get; set; }
-        public DbSet<Note> Notes { get; set; }
+        public DbSet<Token> Tokens { get; set; }
+
     }
 }

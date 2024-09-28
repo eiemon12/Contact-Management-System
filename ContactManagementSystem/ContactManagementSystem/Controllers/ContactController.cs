@@ -87,25 +87,23 @@ namespace ContactManagementSystem.Controllers
 
         [HttpGet]
         [Route("{name}")]
-        public HttpResponseMessage GetByName(string name)
+        public HttpResponseMessage Search(string name)
         {
-            try
+            if (string.IsNullOrEmpty(name))
             {
-                var data = ContactService.GetByName(name);
-                if (data != null)
-                {
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
-                }
-                else
-                {
-                    return Request.CreateResponse(HttpStatusCode.NotFound, "Contact not found");
-                }
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Name cannot be null or empty.");
             }
-            catch (Exception ex)
+
+            var contacts = ContactService.SearchByName(name);
+            if (contacts == null || !contacts.Any())
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                return Request.CreateResponse(HttpStatusCode.NotFound, "No contacts found.");
             }
+
+            return Request.CreateResponse(HttpStatusCode.OK, contacts);
         }
-    
+
+
+
     }
 }

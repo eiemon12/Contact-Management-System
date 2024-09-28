@@ -10,31 +10,26 @@ namespace DAL.EF.TableModels
 {
     public class User
     {
+        
+        //public int Id { get; set; }
         [Key]
-        public int UId { get; set; }
-
-        [Required]
-        public string Name { get; set; }
-
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
-
-        [Required]
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(10)]
-        public string Password { get; set; }
-
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(10)]
         public string UserName { get; set; }
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+        [Required]
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(10)]
+        public string Password { get; set; } 
+        
 
         public virtual ICollection<Contact> Contacts { get; set; }
         public User()
         {
             Contacts = new List<Contact>();
         }
-
     }
 }

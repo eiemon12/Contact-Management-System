@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : Repo, IRepo<User, int, User>, IAuth
+    internal class UserRepo : Repo, IRepo<User, string, User>, IAuth
     {
         public User Create(User obj)
         {
@@ -17,14 +17,14 @@ namespace DAL.Repos
             return obj;
         }
 
-        public bool Delete(int id)
+        public bool Delete(string id)
         {
             var exobj = Get(id);
             db.Users.Remove(exobj);
             return db.SaveChanges() > 0;
         }
 
-        public User Get(int id)
+        public User Get(string id)
         {
             return db.Users.Find(id);
         }
@@ -36,7 +36,7 @@ namespace DAL.Repos
 
         public User Upadte(User obj)
         {
-            var exobj = Get(obj.UId);
+            var exobj = Get(obj.UserName);
             db.Entry(exobj).CurrentValues.SetValues(obj);
             db.SaveChanges();
             return obj;
