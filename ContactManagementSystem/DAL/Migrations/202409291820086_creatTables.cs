@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class createTables : DbMigration
+    public partial class creatTables : DbMigration
     {
         public override void Up()
         {
@@ -16,13 +16,13 @@
                         Phone = c.String(nullable: false),
                         Email = c.String(nullable: false),
                         Address = c.String(nullable: false),
-                        Birthday = c.String(),
-                        Category = c.String(),
+                        Birthday = c.String(nullable: false),
+                        Category = c.String(nullable: false),
                         Notes = c.String(),
-                        UserName = c.String(maxLength: 10, unicode: false),
+                        UserName = c.String(nullable: false, maxLength: 10, unicode: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Users", t => t.UserName)
+                .ForeignKey("dbo.Users", t => t.UserName, cascadeDelete: true)
                 .Index(t => t.UserName);
             
             CreateTable(
@@ -30,6 +30,7 @@
                 c => new
                     {
                         UserName = c.String(nullable: false, maxLength: 10, unicode: false),
+                        Name = c.String(nullable: false),
                         Email = c.String(nullable: false),
                         Password = c.String(nullable: false, maxLength: 10, unicode: false),
                     })

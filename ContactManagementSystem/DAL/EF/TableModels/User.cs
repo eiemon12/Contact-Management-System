@@ -10,13 +10,15 @@ namespace DAL.EF.TableModels
 {
     public class User
     {
-        
-        //public int Id { get; set; }
         [Key]
         [Required]
         [Column(TypeName = "VARCHAR")]
         [StringLength(10)]
+
+
         public string UserName { get; set; }
+        [Required]
+        public string Name { get; set; }
         [Required]
         [EmailAddress]
         public string Email { get; set; }

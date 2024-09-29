@@ -59,9 +59,13 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Interfaces\ISearchRepo.cs" />
-    <Compile Include="Migrations\202409282256572_createTables.cs" />
-    <Compile Include="Migrations\202409282256572_createTables.Designer.cs">
-      <DependentUpon>202409282256572_createTables.cs</DependentUpon>
+    <Compile Include="Migrations\202409291820086_creatTables.cs" />
+    <Compile Include="Migrations\202409291820086_creatTables.Designer.cs">
+      <DependentUpon>202409291820086_creatTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409292153379_modifyTokenTable.cs" />
+    <Compile Include="Migrations\202409292153379_modifyTokenTable.Designer.cs">
+      <DependentUpon>202409292153379_modifyTokenTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,8 +79,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202409282256572_createTables.resx">
-      <DependentUpon>202409282256572_createTables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202409291820086_creatTables.resx">
+      <DependentUpon>202409291820086_creatTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409292153379_modifyTokenTable.resx">
+      <DependentUpon>202409292153379_modifyTokenTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

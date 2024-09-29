@@ -19,27 +19,25 @@ namespace DAL.Repos
 
         public bool Delete(string id)
         {
-            var exobj = Get(id);
-            db.Tokens.Remove(exobj);
-            return db.SaveChanges() > 0;
+            throw new NotImplementedException();
         }
 
         public Token Get(string id)
         {
-            return db.Tokens.SingleOrDefault(t => t.Key.Equals(id));
+            return db.Tokens.FirstOrDefault(t => t.Key.Equals(id));
         }
 
         public List<Token> GetAll()
         {
-            return db.Tokens.ToList();
+            throw new NotImplementedException();
         }
 
-        public Token Upadte(Token obj)
+        public Token Update(Token obj)
         {
-            var exobj = Get(obj.Key);
-            exobj.ExpiredAt = obj.ExpiredAt;
-            db.SaveChanges();
-            return obj; ;
+            var token = Get(obj.Key);
+            db.Entry(token).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) return token;
+            return null;
         }
     }
 }

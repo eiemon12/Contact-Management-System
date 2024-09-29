@@ -21,10 +21,13 @@ namespace DAL.EF.TableModels
         public string Email { get; set; }
         [Required]
         public string Address { get; set; }
+        [Required]
         public string Birthday { get; set; }
+        [Required]
         public string Category { get; set; } //  Friend, Family, Work
         public string Notes { get; set; }
 
+        [Required]
         [ForeignKey("User")]
         public string UserName { get; set; }
         public virtual User User { get; set; }

@@ -34,16 +34,16 @@ namespace DAL.Repos
             return db.Contacts.ToList();
         }
 
-        public bool Upadte(Contact obj)
+        public bool Update(Contact obj)
         {
             var exobj = Get(obj.Id);
             db.Entry(exobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0; 
         }
-        public List<Contact> Search(string name)
+        public List<Contact> Search(string Name)
         {
             return db.Contacts
-                .Where(c => c.Name.ToLower().Contains(name.ToLower())) 
+                .Where(c => c.Name.ToLower().Contains(Name.ToLower())) 
                 .ToList();
         }
     }

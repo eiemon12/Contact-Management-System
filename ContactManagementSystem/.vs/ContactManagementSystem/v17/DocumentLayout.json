@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\dal\\repos\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\contactrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\dal\\ef\\tablemodels\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\contactmanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|solutionrelative:contactmanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\bll\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|solutionrelative:bll\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\contactmanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|solutionrelative:contactmanagementsystem\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\contactmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0E89E9-E04F-4EF2-A0D4-B7C6CD400587}|ContactManagementSystem\\ContactManagementSystem.csproj|solutionrelative:contactmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\ef\\tablemodels\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\ef\\tablemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\interfaces\\isearchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\isearchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D3207C-CE05-4317-8FB3-1054AC3A5CEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4174986-75F0-4A17-9953-CCA63D502467}|BLL\\BLL.csproj|d:\\aiub\\11th semester\\.net\\final\\project\\contact-management-system\\contactmanagementsystem\\bll\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,205 +21,62 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 357,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 566,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\UserRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\UserRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T19:29:02.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "ContactManagementSystem\\Controllers\\ContactController.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "ContactManagementSystem\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAuwCwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:45:19.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\Services\\ContactService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ContactService.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\Services\\ContactService.cs",
-              "RelativeToolTip": "BLL\\Services\\ContactService.cs",
-              "ViewState": "AQIAABIAAADAzMzMzMwgwA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:10:03.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\Contact.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\Contact.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\Contact.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\Contact.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T21:12:59.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactRepo.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\ContactRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\ContactRepo.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\ContactRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\ContactRepo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T18:42:15.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ContactManagementSystem\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ContactManagementSystem\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAsAAABAMzMzMzMrwA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:15:17.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Token.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\Token.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\Token.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\Token.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\Token.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:22:48.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\User.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\User.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\EF\\TableModels\\User.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:01:22.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISearchRepo.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Interfaces\\ISearchRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\ISearchRepo.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Interfaces\\ISearchRepo.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\ISearchRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T22:05:32.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TokenRepo.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\TokenRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\TokenRepo.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Repos\\TokenRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\TokenRepo.cs",
-              "ViewState": "AQIAABIAAACAmZmZmZktwBMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:28:25.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDTO.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:14:16.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T20:44:53.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "ContactDTO.cs",
               "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\ContactDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\ContactDTO.cs",
               "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\DTOs\\ContactDTO.cs",
               "RelativeToolTip": "BLL\\DTOs\\ContactDTO.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA8AAAAVAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T20:08:30.422Z",
+              "WhenOpened": "2024-09-29T23:05:40.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ContactService.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\BLL\\Services\\ContactService.cs",
+              "RelativeToolTip": "BLL\\Services\\ContactService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T22:38:29.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "ContactManagementSystem\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\ContactManagementSystem\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "ContactManagementSystem\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAGgAAAAAZmZmZmYewLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T22:39:50.572Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 38,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 102,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
-              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\final\\project\\Contact-Management-System\\ContactManagementSystem\\DAL\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T22:56:42.532Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 38,
+          "DockedHeight": 22,
           "SelectedChildIndex": -1,
           "Children": [
             {

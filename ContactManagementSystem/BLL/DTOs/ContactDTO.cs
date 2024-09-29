@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.EF.TableModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace BLL.DTOs
 {
     public class ContactDTO
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
@@ -16,6 +17,7 @@ namespace BLL.DTOs
         public string Birthday { get; set; }
         public string Category { get; set; } 
         public string Notes { get; set; }
-        public int UserId { get; set; }
+        public string UserName { get; set; }
+        
     }
 }

@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : Repo, IRepo<User, string, User>, IAuth
+    internal class UserRepo : Repo, IRepo<User, string, bool>, IAuth
     {
-        public User Create(User obj)
+        public bool Create(User obj)
         {
             db.Users.Add(obj);
-            db.SaveChanges();
-            return obj;
+            return db.SaveChanges() > 0;
         }
 
         public bool Delete(string id)
@@ -34,18 +33,17 @@ namespace DAL.Repos
             return db.Users.ToList();
         }
 
-        public User Upadte(User obj)
+        public bool Update(User obj)
         {
             var exobj = Get(obj.UserName);
             db.Entry(exobj).CurrentValues.SetValues(obj);
-            db.SaveChanges();
-            return obj;
+            return db.SaveChanges() > 0;
         }
-        public bool Authenticate(string username, string password)
+        public bool Authenticate(string UserName, string Password)
         {
             var user = db.Users.SingleOrDefault(
-                    u => u.UserName.Equals(username) &&
-                    u.Password.Equals(password)
+                    u => u.UserName.Equals(UserName) &&
+                    u.Password.Equals(Password)
                 );
             return user != null;
         }

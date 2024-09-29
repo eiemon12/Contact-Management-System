@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DataAccess
     {
-        public static IRepo<User, string, User> UserData()
+        public static IRepo<User, string, bool> UserData()
         {
             return new UserRepo();
         }

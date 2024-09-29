@@ -1,5 +1,6 @@
 ﻿using BLL.DTOs;
 using BLL.Services;
+using ContactManagementSystem.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace ContactManagementSystem.Controllers
 {
     public class AuthController : ApiController
     {
-        
+
 
         [HttpPost]
         [Route("api/login")]
@@ -19,7 +20,7 @@ namespace ContactManagementSystem.Controllers
         {
             try
             {
-                var token = AuthService.Authenticate(login.Username, login.Password);
+                var token = AuthService.Authenticate(login.UserName, login.Password);
                 if (token != null)
                 {
                     return Request.CreateResponse(HttpStatusCode.OK, token);
@@ -35,25 +36,22 @@ namespace ContactManagementSystem.Controllers
             }
         }
 
+        [Logged]
         [HttpGet]
         [Route("api/logout")]
         public HttpResponseMessage Logout()
         {
-            var key = Request.Headers.Authorization;
-            if (key == null) return Request.CreateResponse(HttpStatusCode.InternalServerError, "You might forgot to supply token to logout");
+            var token = Request.Headers.ToString();
             try
             {
-
-                var token = AuthService.LogoutToken(key.ToString());
-                return Request.CreateResponse(HttpStatusCode.OK, token);
-
-
+                var res = AuthService.Logout(token);
+                return Request.CreateResponse(HttpStatusCode.OK, res);
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
             }
-        }
 
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace DAL.Interfaces
         RET Create(CLASS obj);
         List<CLASS> GetAll();
         CLASS Get(ID id);
-        RET Upadte(CLASS obj);
+        RET Update(CLASS obj);
         bool Delete(ID id);
     }
 }
