@@ -176,5 +176,28 @@ namespace ContactManagementSystem.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, $"Error importing contacts: {ex.Message}");
             }
         }
+
+        [HttpGet]
+        [Route("reminders/{daysAhead}")]
+        public HttpResponseMessage GetBirthdayReminders(int daysAhead)
+        {
+            try
+            {
+                var contacts = ContactService.GetUpcomingBirthdays(daysAhead);
+                if (contacts == null || !contacts.Any())
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "No upcoming birthdays found.");
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, contacts);
+            }
+            catch (Exception ex)
+            {
+                
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, "An error occurred while processing your request.");
+            }
+        }
+
+
+
     }
 }

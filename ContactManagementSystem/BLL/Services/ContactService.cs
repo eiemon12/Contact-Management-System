@@ -2,7 +2,9 @@
 using BLL.DTOs;
 using DAL;
 using DAL.EF.TableModels;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace BLL.Services
@@ -56,5 +58,41 @@ namespace BLL.Services
             }
             return GetMapper().Map<List<ContactDTO>>(contacts);
         }
+
+        public static List<ContactDTO> GetUpcomingBirthdays(int daysAhead)
+        {
+            var today = DateTime.Today;
+            var upcomingDate = today.AddDays(daysAhead);
+            var contacts = DataAccess.ContactData().GetAll();
+
+           
+            var upcomingContacts = contacts
+                .Where(c => IsBirthdayInRange(c.Birthday, today, upcomingDate)) // Check birthdays within range
+                .ToList();
+
+            
+            return GetMapper().Map<List<ContactDTO>>(upcomingContacts);
+        }
+
+        private static bool IsBirthdayInRange(string birthdayString, DateTime today, DateTime upcomingDate)
+        {
+            if (DateTime.TryParseExact(birthdayString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out var birthday))
+            {
+                var thisYearBirthday = new DateTime(today.Year, birthday.Month, birthday.Day);
+
+                // If birthday has passed, move it to next year
+                if (thisYearBirthday < today)
+                {
+                    thisYearBirthday = new DateTime(today.Year + 1, birthday.Month, birthday.Day);
+                }
+
+                return thisYearBirthday >= today && thisYearBirthday <= upcomingDate;
+            }
+            return false;
+        }
+
+
+
+
     }
 }
